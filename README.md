@@ -1,1 +1,0 @@
-# heratyian.github.io
