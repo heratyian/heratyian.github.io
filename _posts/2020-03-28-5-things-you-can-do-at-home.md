@@ -2,7 +2,7 @@
 layout: post
 title:  "5 Things You Can Do At Home"
 date:   2020-03-28 12:25:17 -0600
-categories: 5 things list
+categories: list
 ---
 
 1. ### Learn a new skill
