@@ -12,6 +12,10 @@ body {
   font-family: 'Source Sans Pro', Sans-Serif;
 }
 
+p {
+  color: white;
+}
+
 .items {
   margin: auto;
   padding: 30px;
@@ -24,6 +28,7 @@ body {
 .banner {
   display: flex;
   justify-content: center;
+  margin-top: 1rem;
 }
 
 .name {

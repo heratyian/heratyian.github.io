@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Keep A Digital Scratchpad"
 date:   2020-03-28 12:25:17 -0600
 categories: post

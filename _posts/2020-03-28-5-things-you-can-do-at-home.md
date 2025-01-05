@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "5 Things You Can Do At Home"
 date:   2020-03-28 12:25:17 -0600
 categories: list

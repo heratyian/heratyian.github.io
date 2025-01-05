@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "How To Use Rails Credentials For User Secrets"
 date:   2022-04-09 12:25:17 -0600
 categories: rails
@@ -13,7 +13,7 @@ Your secrets are stored in a .yml file and encrypted in `config/credentials.yml.
 `EDITOR=vim rails credentials:edit` 
 to use a terminal editor like vim or 
 `EDITOR="code --wait" rails credentials:edit`
- to use an app like vscode. `credentials` decrypts `config/credentials.yml.enc` so it can be edited using `config/master.key`. **This file should not be tracked in source control.** 
+to use an app like vscode. `credentials` decrypts `config/credentials.yml.enc` so it can be edited using `config/master.key`. **This file should not be tracked in source control.** 
 
 ```
 development:
