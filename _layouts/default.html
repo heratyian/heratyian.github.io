@@ -52,8 +52,12 @@
         <img src="/images/profile.png" alt="Ian Heraty headshot" class="banner-image">
       </a>
 
-      <div class="name">
+      <div class="header name">
         {{ page.title }}
+      </div>
+
+      <div class="header date">
+        {{ page.date | date_to_string }}
       </div>
 
       <div class="items">

@@ -31,12 +31,19 @@ p, h1, h2, h3, h4, h5, code, ol, li {
   margin-top: 1rem;
 }
 
-.name {
+.header {
   display: flex;
   justify-content: center;
-  font-size: 24px;
   color: white;
   font-family: 'Playfair Display', Serif;
+}
+
+.header.name {
+  font-size: 24px;
+}
+
+.header.date {
+  font-size: 10px;
 }
 
 .social-icons {

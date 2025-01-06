@@ -1,8 +1,7 @@
 ---
 layout: default
-title:  "How To Use Rails Credentials For User Secrets"
+title:  How To Use Rails Credentials For User Secrets
 date:   2022-04-09 12:25:17 -0600
-categories: rails
 ---
 
 ## Why
