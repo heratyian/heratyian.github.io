@@ -64,13 +64,8 @@
         {{ content }}
       </div>
 
-      <canvas id="canvas" class="isLoaded"></canvas>
-    </div>
+      {% include gradient.html %}
 
-    <script src="https://cdn.jsdelivr.net/gh/greentfrapp/pocoloco@minigl/minigl.js"></script>
-    <script>
-      var gradient = new Gradient();
-      gradient.initGradient("#canvas");
-    </script>
+    </div>
   </body>
 </html>
