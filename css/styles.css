@@ -12,11 +12,11 @@ body {
   font-family: 'Source Sans Pro', Sans-Serif;
 }
 
-p, h1, h2, h3, h4, h5, code, ol, li {
+p, h1, h2, h3, h4, h5, code, ol, li, a {
   color: white;
 }
 
-.items {
+.content {
   margin: auto;
   padding: 30px;
   max-width: 640px;
