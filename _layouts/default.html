@@ -7,31 +7,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- manifest -->
-    <link rel="manifest" href="manifest.json" />
+    <link rel="manifest" href="{{ '/manifest.json' | relative_url }}">
 
     <!-- HTML Meta Tags -->
-    <title>Ian Heraty</title>
-    <meta name="description" content="Ian Heraty's blog">
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+
+    {% if page.tags %}
+      <meta name="keywords" content="{{ page.tags | join: ', ' }}">
+    {% endif %}
 
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="heratyian.github.io"> <!-- TODO: update for current url? -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="Ian Heraty">
     <meta property="og:description" content="Ian Heraty's blog">
-    <meta property="og:image" content="https://heratyian.github.io/images/sleepy-cat.png">
+    {% if page.image %}
+      <meta property="og:image" content="{{ page.image | absolute_url }}">
+    {% elsif site.image %}
+      <meta property="og:image" content="{{ site.image | absolute_url }}">
+    {% endif %}
+
+    <meta property="og:title" content="{{ page.title | escape }}">
+    <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+    {% if page.image %}
+      <meta property="og:image" content="{{ page.image | absolute_url }}">
+    {% elsif site.image %}
+      <meta property="og:image" content="{{ site.image | absolute_url }}">
+    {% endif %}
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="heratyian.github.io"> <!-- TODO: update for current url? -->
     <meta property="twitter:url" content="heratyian.github.io"> <!-- TODO: update for current url? -->
-    <meta name="twitter:title" content="Ian Heraty">
-    <meta name="twitter:description" content="Ian Heraty's blog">
-    <meta name="twitter:image" content="https://heratyian.github.io/images/sleepy-cat.png">
+    <meta name="twitter:title" content="{{ page.title | escape }}">
+    <meta name="twitter:description" content="{{ page.description | default: site.description | escape }}">
+    {% if page.image %}
+      <meta name="twitter:image" content="{{ page.image | absolute_url }}">
+    {% elsif site.image %}
+      <meta name="twitter:image" content="{{ site.image | absolute_url }}">
+    {% endif %}
 
     <!-- favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="{{ '/images/favicon.ico' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/apple-touch-icon.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/images/favicon-32x32.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/images/favicon-16x16.png' | relative_url }}">
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

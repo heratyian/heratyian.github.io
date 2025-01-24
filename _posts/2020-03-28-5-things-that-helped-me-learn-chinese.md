@@ -2,6 +2,7 @@
 layout: default
 title:  5 Things That Helped Me Learn Chinese
 date:   2020-03-28 12:25:17 -0600
+image: https://heratyian.github.io/images/sleepy-cat.png
 ---
 
 1. The desire to learn
