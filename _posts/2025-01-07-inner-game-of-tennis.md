@@ -3,6 +3,7 @@ layout: default
 title:  Lessons from The Inner Game of Tennis
 date:   2025-01-07
 image: https://heratyian.github.io/images/sleepy-cat.png
+icon: fa-solid fa-table-tennis-paddle-ball
 ---
 
 I just finished reading [The Inner Game of Tennis by W. Timothy Gallwey](https://www.amazon.com/Inner-Game-Tennis-Classic-Performance/dp/0679778314), and it’s much more than a tennis guide. It’s a fascinating exploration of how to get out of your own way, find peace regardless of outcomes, and develop a mindset that enhances both athletic performance and enjoyment.

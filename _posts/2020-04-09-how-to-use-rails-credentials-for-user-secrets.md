@@ -3,6 +3,7 @@ layout: default
 title:  How To Use Rails Credentials For User Secrets
 date:   2022-04-09 12:25:17 -0600
 image: https://heratyian.github.io/images/sleepy-cat.png
+icon: fa-solid fa-lock
 ---
 
 ## Why

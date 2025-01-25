@@ -3,6 +3,7 @@ layout: default
 title:  5 Things You Can Do At Home
 date:   2020-03-28 12:25:17 -0600
 image: https://heratyian.github.io/images/sleepy-cat.png
+icon: fa-solid fa-house-user
 ---
 
 1. ### Learn a new skill

@@ -3,6 +3,7 @@ layout: default
 title:  Keep A Digital Scratchpad
 date:   2020-03-28 12:25:17 -0600
 image: https://heratyian.github.io/images/sleepy-cat.png
+icon: fa-regular fa-clipboard
 ---
 
 This gives you the benefit of a more detailed record of your daily activity. Anytime you read a blog or code example save the link in your daily notes. Keep code snippets. Have a place to draft ideas.

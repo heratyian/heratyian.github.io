@@ -68,10 +68,11 @@ p, h1, h2, h3, h4, h5, code, ol, li, a {
   height: 48px;
   border-radius: 48px;
   object-fit: cover;
+  color: #021c1e;
 }
 
 .link {
-  padding: 5px;
+  padding: 10px;
   border-radius: 500px;
   display: flex;
   align-items: center;
