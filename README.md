@@ -1,3 +1,3 @@
 # heratyian.github.io
 
-`bundle exec jekyll serve`
+Start your local server with `bin/server`

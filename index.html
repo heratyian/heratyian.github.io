@@ -1,9 +1,114 @@
----
-layout: default
-title: Ian Heraty
-image: https://heratyian.github.io/images/sleepy-cat.png
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- manifest -->
+    <link rel="manifest" href="manifest.json">
 
-{% include social_icons.html %}
+    <!-- Meta Tags -->
+    <title>Ian Heraty</title>
+    <meta name="description" content="My blog to share links to my social pages and articles I want to share.">
+    <meta name="keywords" content="blog, tech, cat, learning">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-{% include posts.html %}
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="heratyian.github.io">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ian Heraty">
+    <meta property="og:description" content="Ian Heraty's blog">
+    <meta property="og:image" content="/assets/images/avatar.png">
+    <meta property="og:title" content="Ian Heraty">
+    <meta property="og:description" content="My blog to share links to my social pages and articles I want to share.">
+    <meta property="og:image" content="/assets/images/avatar.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="heratyian.github.io">
+    <meta property="twitter:url" content="heratyian.github.io">
+    <meta name="twitter:title" content="Ian Heraty">
+    <meta name="twitter:description" content="My blog to share links to my social pages and articles I want to share.">
+    <meta name="twitter:image" content="/assets/images/avatar.png">
+
+    <!-- favicons -->
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="/assets/stylesheets/application.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900|Source+Sans+Pro" rel="stylesheet">
+
+    <!-- fontawesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
+      integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </head>
+
+  <body>
+
+    <header>
+      <img class="avatar" src="/assets/images/avatar.png" alt="Portrait of Ian Heraty">
+      <h1 class="headline">Ian Heraty</h1>
+      <h2 class="tagline">
+        Software Development Educator and Builder
+      </h2>
+      <p class="bio">
+        Ian is a technical instructor who helps trainees master full stack web development in preparation for technology
+        roles. Before joining Discovery Partners Institute, Ian worked for several years as a software developer and
+        digital consultant. Following a successful career in custom software development and digital consulting, Ian now
+        guides trainees in building robust web applications and developing industry-ready skills. Ian enjoys music,
+        tennis, and exploring new technologies.
+      </p>
+
+      <!-- social links -->
+      <div id="social-links">
+        <h3 class="visually-hidden">Social Links</h3>
+        <a href="https://github.com/heratyian" target="_blank" title="GitHub" class="hover-shadow">
+          <i class="fa-brands fa-github fa-xl"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ianheraty/" target="_blank" title="LinkedIn" class="hover-shadow">
+          <i class="fa-brands fa-linkedin fa-xl"></i>
+        </a>
+        <a href="https://dev.to/heratyian" target="_blank" title="dev.to" class="hover-shadow">
+          <i class="fa-brands fa-dev fa-xl"></i>
+        </a>
+        <a href="mailto:ihera2@uillinois.edu" target="_blank" title="email" class="hover-shadow">
+          <i class="fa-solid fa-envelope fa-xl"></i>
+        </a>
+        <a href="https://github.com/heratyian/resume/blob/main/resume.pdf" target="_blank" title="My résumé"  class="hover-shadow">
+          <i class="fa-solid fa-user-tie fa-xl"></i>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <!-- articles -->
+      <ul id="articles" class="card-links">
+        <h3 class="visually-hidden">Articles</h3>
+        <li>
+          <a class="card-link hover-shadow" href="https://paulgraham.com/startupideas.html" target="_blank">
+            How to Get Startup Ideas
+          </a>
+        </li>
+
+        <li>
+          <a class="card-link hover-shadow" href="https://foundersatwork.posthaven.com/find-your-people" target="_blank">
+            Find Your People
+          </a>
+        </li>
+
+        <li>
+          <a class="card-link hover-shadow" href="https://a16z.com/why-software-is-eating-the-world/" target="_blank">
+            Why Software Is Eating the World
+          </a>
+        </li>
+      </section>
+    </main>
+  </body>
+</html>
