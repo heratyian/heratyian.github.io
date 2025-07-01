@@ -76,6 +76,8 @@ body {
   text-decoration: underline;
 }
 
+/* TODO: .card-link:focus */
+
 /* utilities */
 
 .hover-shadow {
