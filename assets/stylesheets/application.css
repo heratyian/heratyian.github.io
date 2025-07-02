@@ -12,7 +12,7 @@ body {
   min-height: 100%;
   height: fit-content;
   box-sizing: border-box;
-  font-family: 'Roboto', 'Source Sans Pro', Sans-Serif;
+  font-family: 'Roboto', Sans-Serif;
 }
 
 /* ========== Layout ========== */
