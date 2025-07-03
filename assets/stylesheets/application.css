@@ -12,7 +12,7 @@ body {
   min-height: 100%;
   height: fit-content;
   box-sizing: border-box;
-  font-family: 'Roboto', Sans-Serif;
+  font-family: 'Roboto', 'Sans-Serif';
 }
 
 /* ========== Layout ========== */
@@ -28,14 +28,6 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto
-}
-
-.headline {
-  text-align: center;
-}
-
-.tagline {
-  text-align: center;
 }
 
 .icon-link {
@@ -71,6 +63,7 @@ body {
   text-decoration: none;
   color: var(--color-text);
   transition: box-shadow 0.2s ease, transform 0.2s ease;
+  font-size: 1.75rem;
 }
 
 .article-link:hover {
@@ -109,6 +102,10 @@ body {
 
 .mt-2 {
   margin-top: 2rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 /* visible to screen readers only */
