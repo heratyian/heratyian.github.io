@@ -1,6 +1,6 @@
 {
-  "short_name": "heratyian.github.io",
-  "name": "heratyian.github.io",
+  "short_name": "Ian Heraty",
+  "name": "Ian Heraty",
   "icons": [
     {
       "src": "assets/images/android-chrome-192x192.png",
@@ -15,6 +15,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#021c1e",
-  "background_color": "#021c1e"
+  "theme_color": "#000",
+  "background_color": "#000"
 }
