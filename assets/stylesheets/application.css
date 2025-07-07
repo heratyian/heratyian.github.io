@@ -13,14 +13,14 @@
   --space-medium: 2rem;
   --space-large: 4rem;
 
-  /* font sizes */
+  /* sizes */
+  --avatar-size: 15rem;
   --font-size-base: 1.25rem;
   --font-size-small: 1.5rem;
   --font-size-medium: 1.75rem;
   --font-size-large: 2rem;
 
   /* Widths */
-  --avatar-size: 15rem;
   --layout-max-width: 640px;
   --layout-max-width-large: 720px;
 }
