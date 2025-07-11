@@ -31,10 +31,6 @@ body {
   margin: auto;
   padding: var(--space-medium);
   max-width: var(--layout-max-width);
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-  height: fit-content;
   box-sizing: border-box;
   font-family: 'Roboto', 'Sans-Serif';
 }
